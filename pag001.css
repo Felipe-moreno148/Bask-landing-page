@@ -1,0 +1,120 @@
+body{
+    background-color: #2F5175;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #f5f5dc;
+    padding: 20px;
+    text-align: center;
+}
+h1{
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+}
+#logo1{
+    width: 10%;
+}
+ul{
+    list-style-type: none;
+    margin: 0 15px;
+}
+li{
+    display: inline;
+    margin: 0 10px;
+
+}
+a{
+    color: #cf0056;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover{
+    color: #bac94f;
+}
+section{
+    padding: 20px;
+}
+#logo{
+    width: 25%;
+    
+}
+#Sobre{
+    background-color: #3e6c9c;
+    padding: 20px;
+}
+#port{
+    background-color: #4886c9;
+}
+h2{
+    font-family: "SUSE", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: bold;
+    color: #fff;
+    font-size: 2em;
+}
+p{
+    font-family: "SUSE", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: extralight 200;
+}
+p{
+    color: #fff;
+}
+#x{
+    display: flex;
+    flex-wrap: wrap;
+}
+#y{
+    flex: 1;
+    margin: 10;
+}
+h3{
+    font-family: "SUSE", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: light 300;
+    color: #fff;
+}
+#proj{
+    width: 100%;
+    max-width: 350px;
+    border: 5px solid #cf0056;
+    border-radius: 20px;
+    transition: transform 0.5s ease-in-out;
+    
+}
+#proj:hover{
+    transform: scale(1.05   );
+}
+#inf{
+    color: #000;
+}
+footer{
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: baseline ;
+    background-color: #f5f5dc;
+    color: #000;
+}
+#social-icons{
+
+    flex-direction: row;
+    align-items: center;
+    align-items: center;
+    background-color: #fff;
+    color: #000;
+}
+.copy{
+    color: #000;
+}
