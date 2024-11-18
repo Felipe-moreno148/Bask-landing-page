@@ -1,13 +1,8 @@
-# Portfólio da Bask - Design Criativo
+# React + Vite
 
-## Descrição
-Este projeto, desenvolvido utilizando HTML5 e CSS3, serve como portfólio online para a empresa de design Bask. O objetivo é apresentar de forma clara e visualmente impactante os trabalhos e projetos realizados pela empresa, demonstrando sua expertise e criatividade.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## Tecnologias Utilizadas
-* **HTML5:** Estruturação do conteúdo do portfólio, incluindo a criação de páginas para cada projeto.
-* **CSS3:** Estilização visual do portfólio, com foco em um design moderno e responsivo, garantindo uma ótima experiência do usuário em diferentes dispositivos.
+Currently, two official plugins are available:
 
-## Como Executar o Projeto
-1. **Clone o repositório:**
-   ```bash
-   git clone https://seu-repositorio.git
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
