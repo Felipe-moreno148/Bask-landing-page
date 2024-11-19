@@ -1,0 +1,30 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-image: linear-gradient(#0045a0,#003dc0,#3d00cc);
+    width: 99vw;
+    height: 100vh;
+    box-sizing: border-box;
+}
+#headerContainer{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+}
+header{
+    background-color: antiquewhite;
+    padding: 20px;
+    text-align: center;
+    width: 98%;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    display: inline;
+    margin: 0 5px;
+}
+a{
+    text-decoration: none;
+    font-weight: bold;
+}
