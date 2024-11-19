@@ -28,3 +28,18 @@ a{
     text-decoration: none;
     font-weight: bold;
 }
+section{
+    padding: 20px;
+}
+h1{
+    margin: 0 20px;
+    color: #fff;
+}
+#logosite{
+    width: 25%;
+    margin: 20px 25px 10px 10px;
+}
+p{
+    margin: 0 20px;
+    color: #fff;
+}
