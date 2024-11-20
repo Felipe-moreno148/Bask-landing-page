@@ -1,9 +1,10 @@
 body {
   padding: 0;
   margin: 0;
-  background-image: linear-gradient(#0044ff,#00227e,#000c2c);
+  background-image: linear-gradient(#0044ff, #00227e, #000c2c);
   width: 99%;
   height: 100%;
+  -webkit-scrollbar-track: #000;
 }
 #headerContainer {
   display: flex;
@@ -15,8 +16,13 @@ header {
   padding: 20px;
   text-align: center;
   width: 98%;
-}
+  }
+  header img{
+    padding: 0 0 0 15px;
+  }
 ul {
+  margin: 5px 4px;
+  padding: 0 0 0 16px;
   list-style-type: none;
 }
 li {
@@ -26,6 +32,7 @@ li {
 a {
   text-decoration: none;
   font-weight: bold;
+  font-family: "DM Sans", sans-serif;
 }
 section {
   padding: 20px;
@@ -33,6 +40,9 @@ section {
 h1 {
   margin: 0 20px;
   color: #fff;
+  font-family: "Host Grotesk", sans-serif;
+  font-weight: 500;
+  font-size: 48px;
 }
 #logosite {
   width: 25%;
@@ -41,45 +51,47 @@ h1 {
 p {
   margin: 0 20px;
   color: #fff;
+  font-family: "DM Sans", sans-serif;
 }
-#portifolio{
+#portifolio {
   margin: 0;
   padding: 0;
 }
-.exemplos img{
+.exemplos img {
   margin: 15px auto;
   width: 412px;
   height: 520px;
   border-radius: 20px;
 }
-.exemplos img:hover{
+.exemplos img:hover {
   transition: 400ms;
   border: 3px solid #fff;
   transform: scale(1.05);
 }
-.exemplos{
+.exemplos {
   margin: 15px auto;
   width: 412px;
   height: 535px;
   display: inline-block;
   margin: auto 14px;
 }
-footer{
+footer {
   margin: 20px 0 0 0;
   background-color: #f5f5dc;
   color: #000;
   text-align: center;
   width: 101%;
 }
-footer h1{
+footer h1 {
   color: #000;
   padding: 15px 0 10px 0;
+  font-size: 36px;
 }
-footer p{
+footer p {
+  font-family: "DM Sans", sans-serif;
   color: #000;
   padding: 10px 0 15px 0;
 }
-footer img{
+footer img {
   padding: 0 7px 0 7px;
 }
-
