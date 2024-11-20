@@ -14,18 +14,18 @@ function Home() {
           <img src={logo} id="logo" />
           <ul typeof="">
             <li>
-              <a href="">Sobre nós</a>
+              <a href="#sobre">Sobre nós</a>
             </li>
             <li>
-              <a href="">Portifolio</a>
+              <a href="#portifolio">Portifolio</a>
             </li>
             <li>
-              <a href="">Contato</a>
+              <a href="#contato">Contatos</a>
             </li>
           </ul>
         </header>
       </div>
-      <section>
+      <section id="sobre">
         <h1>Sobre nós</h1>
         <img src={logo} id="logosite" />
         <p>
@@ -40,17 +40,19 @@ function Home() {
           <br /> ar moderno e profissional.
         </p>
       </section>
-      <h1>Portifolio</h1>
-      <div className="exemplos"><img src={img1} alt="imagem 1"  />
-        <p>Flyer de sorveteria com o fundo fazendo alusão a movimento</p>
-      </div>
-      <div className="exemplos"><img src={img2} alt="imagem 1"  />
-      <p>Flyer de academia monocromático utilizando apenas verde escalas de cinza</p>
-      </div>
-      <div className="exemplos"><img src={img3} alt="imagem 1"  />
-      <p>Flyer esportivo od jogador Júnior Santos, com cores quentes e fundo com escudo do time</p>
-      </div>
-      <footer>
+      <section id="portifolio">
+        <h1>Portifolio</h1>
+        <div className="exemplos"><img src={img1} alt="imagem 1"  />
+          <p>Flyer de sorveteria com o fundo fazendo alusão a movimento</p>
+        </div>
+        <div className="exemplos"><img src={img2} alt="imagem 1"  />
+        <p>Flyer de academia monocromático utilizando apenas verde escalas de cinza</p>
+        </div>
+        <div className="exemplos"><img src={img3} alt="imagem 1"  />
+        <p>Flyer esportivo od jogador Júnior Santos, com cores quentes e fundo com escudo do time</p>
+        </div>
+      </section>
+      <footer id="contato">
         <h1>Contate-nos</h1>
         <a href="instagram.com/baskdzn" target="_blank"><img src={behance} alt="Behance logo" /></a>
         <a href="https://www.behance.net/baskdzn" target="_blank"><img src={instagram} alt="Behance logo" /></a> <br />
