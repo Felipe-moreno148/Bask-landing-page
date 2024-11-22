@@ -55,8 +55,8 @@ function Home() {
       </section>
       <footer id="contato">
         <h1>Contate-nos</h1>
-        <a href="instagram.com/baskdzn" target="_blank"><img src={behance} alt="Behance logo" /></a>
-        <a href="https://www.behance.net/baskdzn" target="_blank"><img src={instagram} alt="Behance logo" /></a> <br />
+        <a href="https://www.behance.net/baskdzn" target="_blank"><img src={behance} alt="Behance logo" /></a>
+        <a href="https://www.instagram.com/baskdzn?igsh=MWJuYmtla2szcHp2aw==" target="_blank"><img src={instagram} alt="Behance logo" /></a> <br />
         <p>&copy; 2024 Todos diretos reservados a BASK</p>
       </footer>
     </div>
