@@ -95,7 +95,7 @@ footer p {
 footer img {
   padding: 0 7px 0 7px;
 }
-@media (max-width: 768px) {
+@media (min-width: 768px) {
   body {
     width: 99%;
     height: 100%;
@@ -117,8 +117,5 @@ footer img {
   }
   #portifolio p{
     padding: 10px 0 10px 0;
-  }
-  footer{
-
   }
 }
