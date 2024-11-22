@@ -11,7 +11,7 @@ function Home() {
     <div>
       <div id="headerContainer">
         <header>
-          <img src={logo} id="logo" name="logo" />
+          <img src={logo} id="logo" />
           <ul typeof="">
             <li>
               <a href="#sobre">Sobre nós</a>
@@ -29,10 +29,11 @@ function Home() {
         <h1>Sobre nós</h1>
         <img src={logo} id="logosite" />
         <p>
-          Uma empresa design moderna que presa pela acessibilidade <br />{" "}
-          preservando o custo-benefício,tem como público alvo pequenas empresas{" "}
+          Uma empresa design moderna que preza pela acessibilidade <br />{" "}
+          preservando o custo-benefício, tem como público alvo pequenas empresas{" "}
           <br /> e empreendedores autômonos.
         </p>
+        <br />
         <p>
           A empresa foi criada em 2022 atendendo diversos países de diversas
           línguas, criamos soluções <br /> prezando pela estética e
