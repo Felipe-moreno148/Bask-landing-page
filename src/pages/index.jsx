@@ -29,10 +29,11 @@ function Home() {
         <h1>Sobre nós</h1>
         <img src={logo} id="logosite" />
         <p>
-          Uma empresa design moderna que presa pela acessibilidade <br />{" "}
-          preservando o custo-benefício,tem como público alvo pequenas empresas{" "}
+          Uma empresa design moderna que preza pela acessibilidade <br />{" "}
+          preservando o custo-benefício, tem como público alvo pequenas empresas{" "}
           <br /> e empreendedores autômonos.
         </p>
+        <br />
         <p>
           A empresa foi criada em 2022 atendendo diversos países de diversas
           línguas, criamos soluções <br /> prezando pela estética e
@@ -49,7 +50,7 @@ function Home() {
         <p>Flyer de academia monocromático utilizando apenas verde escalas de cinza</p>
         </div>
         <div className="exemplos"><img src={img3} alt="imagem 1"  />
-        <p>Flyer esportivo od jogador Júnior Santos, com cores quentes e fundo com escudo do time</p>
+        <p>Flyer esportivo do jogador Júnior Santos, com cores quentes e fundo com escudo do time</p>
         </div>
       </section>
       <footer id="contato">

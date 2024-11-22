@@ -16,10 +16,10 @@ header {
   padding: 20px;
   text-align: center;
   width: 98%;
-  }
-  header img{
-    padding: 0 0 0 15px;
-  }
+}
+header img {
+  padding: 0 0 0 15px;
+}
 ul {
   margin: 5px 4px;
   padding: 0 0 0 16px;
@@ -94,4 +94,31 @@ footer p {
 }
 footer img {
   padding: 0 7px 0 7px;
+}
+@media (max-width: 768px) {
+  body {
+    width: 99%;
+    height: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  header{
+    width: 93%;
+  }
+  #sobre{
+    text-align: left;
+  }
+  #logosite {
+    width: 55%;
+  }
+  footer{
+    width: 100vw;
+  }
+  #portifolio p{
+    padding: 10px 0 10px 0;
+  }
+  footer{
+
+  }
 }
