@@ -11,7 +11,7 @@ function Home() {
     <div>
       <div id="headerContainer">
         <header>
-          <img src={logo} id="logo" />
+          <img src={logo} id="logo" name="logo" />
           <ul typeof="">
             <li>
               <a href="#sobre">Sobre nós</a>
@@ -49,7 +49,7 @@ function Home() {
         <p>Flyer de academia monocromático utilizando apenas verde escalas de cinza</p>
         </div>
         <div className="exemplos"><img src={img3} alt="imagem 1"  />
-        <p>Flyer esportivo od jogador Júnior Santos, com cores quentes e fundo com escudo do time</p>
+        <p>Flyer esportivo do jogador Júnior Santos, com cores quentes e fundo com escudo do time</p>
         </div>
       </section>
       <footer id="contato">

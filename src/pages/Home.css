@@ -95,3 +95,14 @@ footer p {
 footer img {
   padding: 0 7px 0 7px;
 }
+@media screen and (min-widith: 480) {
+  body{
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: block;
+  }
+  
+}
