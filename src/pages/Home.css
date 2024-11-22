@@ -95,7 +95,7 @@ footer p {
 footer img {
   padding: 0 7px 0 7px;
 }
-@media (min-width: 480px) and (max-width: 1080px) {
+@media (min-width: 480px) and (max-width: 1920px) {
   body {
     width: 99%;
     height: 100%;
