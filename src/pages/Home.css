@@ -97,20 +97,20 @@ footer img {
 }
 @media (min-width: 400px) and (max-width: 1080px) {
   body {
-    width: 99vw;
+    width: 99%;
     height: 100%;
     text-align: center;
     align-items: center;
     justify-content: center;
   }
   header{
-    width: 96vw;
+    width: 96%;
   }
   #sobre{
     text-align: left;
   }
   #logosite {
-    width: 55vw;
+    width: 55%;
   }
   footer{
     width: 100%
