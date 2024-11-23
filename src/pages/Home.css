@@ -104,7 +104,7 @@ footer img {
     justify-content: center;
   }
   header{
-    width: 96%;
+    width: 100%;
   }
   #sobre{
     text-align: left;
@@ -117,5 +117,8 @@ footer img {
   }
   #portifolio p{
     padding: 10px 0 10px 0;
+  }
+  #portifolio img{
+    width: 90%;
   }
 }
